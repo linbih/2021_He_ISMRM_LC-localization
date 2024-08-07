@@ -1,5 +1,5 @@
 
-[An Automatic and Subject-specific Method for Locus Coeruleus Localization and BOLD Activity Extraction](https://mr.research.columbia.edu/sites/default/files/content/He%20An%20Automatic.pdf)
+[An Automatic and Subject-specific Method for Locus Coeruleus Localization and BOLD Activity Extraction](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=coVbVZEAAAAJ&sortby=pubdate&citation_for_view=coVbVZEAAAAJ:4DMP91E08xMC)
 
 H He, L Hong, P Sajda
 Proceedings of the International Society for Magnetic Resonance in Medicine 2021
