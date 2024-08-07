@@ -1,12 +1,7 @@
+### This repository contains code for:
 
-[An Automatic and Subject-specific Method for Locus Coeruleus Localization and BOLD Activity Extraction](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=coVbVZEAAAAJ&sortby=pubdate&citation_for_view=coVbVZEAAAAJ:4DMP91E08xMC)
-
-H He, L Hong, P Sajda
-Proceedings of the International Society for Magnetic Resonance in Medicine 2021
+H He, L Hong, P Sajda (2021). An Automatic and Subject-specific Method for Locus Coeruleus Localization and BOLD Activity Extraction. Proceedings of the International Society for Magnetic Resonance in Medicine 2021. [Link](https://www.ismrm.org/21/program-files/TeaserSlides/TeasersPresentations/2711-Teaser.html)
  
-By Hengda He - LIINC - Columbia University
-June 20th 2021
-
 1. Subject TSE image space and MNI standard space registration
     1) TSEandMNI_registration/FSLregistration_TSE_1mm.sh
     Input: TSE_image, T1_image, standard_image
@@ -71,7 +66,3 @@ June 20th 2021
     d. Extract time series in LC locations weighted with LC location probabilities from GLM residual.
 
     Output: LC time series (2 vox and 6 vox versions)
-
-
-
-
