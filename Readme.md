@@ -1,21 +1,24 @@
 ### This repository contains code for:
 
 H He, L Hong, P Sajda (2021). An Automatic and Subject-specific Method for Locus Coeruleus Localization and BOLD Activity Extraction. Proceedings of the International Society for Magnetic Resonance in Medicine 2021. [Link](https://www.ismrm.org/21/program-files/TeaserSlides/TeasersPresentations/2711-Teaser.html)
+
+By Hengda He - LIINC - Columbia University
+June 20th 2021
 .
 
 1. Subject TSE image space and MNI standard space registration
-    1) TSEandMNI_registration/FSLregistration_TSE_1mm.sh
-    Input: TSE_image, T1_image, standard_image
+1) TSEandMNI_registration/FSLregistration_TSE_1mm.sh
+Input: TSE_image, T1_image, standard_image
 
-    a. Rigid registration of TSE image to T1_head
-    b. T1_brain non-linear registration to MNI_standard_brain
+a. Rigid registration of TSE image to T1_head
+b. T1_brain non-linear registration to MNI_standard_brain
 
-    Output: TSE2structhead.mat, T1brain2strandardbrain_warp.nii.gz, TSE2strandardbrain_warp.nii.gz
+Output: TSE2structhead.mat, T1brain2strandardbrain_warp.nii.gz, TSE2strandardbrain_warp.nii.gz
 
-    2) TSEandMNI_registration/LCmask_MNI2SUB.sh
-    Input: LC_atlas
-    Warp LC_atlas into subject structural space.
-    Output: LC_template in Structspace
+2) TSEandMNI_registration/LCmask_MNI2SUB.sh
+Input: LC_atlas
+Warp LC_atlas into subject structural space.
+Output: LC_template in Structspace
 
 2. Hybrid method to locate LC in functional space, and extract time series
     1) LC_HybridMethod/main.sh
