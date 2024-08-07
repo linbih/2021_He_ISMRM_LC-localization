@@ -1,7 +1,8 @@
 ### This repository contains code for:
 
 H He, L Hong, P Sajda (2021). An Automatic and Subject-specific Method for Locus Coeruleus Localization and BOLD Activity Extraction. Proceedings of the International Society for Magnetic Resonance in Medicine 2021. [Link](https://www.ismrm.org/21/program-files/TeaserSlides/TeasersPresentations/2711-Teaser.html)
- 
+.
+
 1. Subject TSE image space and MNI standard space registration
     1) TSEandMNI_registration/FSLregistration_TSE_1mm.sh
     Input: TSE_image, T1_image, standard_image
