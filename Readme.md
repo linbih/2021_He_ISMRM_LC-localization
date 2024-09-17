@@ -1,6 +1,8 @@
 ### This repository contains code for:
 
 H He, L Hong, P Sajda (2021). An Automatic and Subject-specific Method for Locus Coeruleus Localization and BOLD Activity Extraction. Proceedings of the International Society for Magnetic Resonance in Medicine 2021. [Link](https://www.ismrm.org/21/program-files/TeaserSlides/TeasersPresentations/2711-Teaser.html)
+
+Code compiled by Hengda He, June 20th 2021.
 .
 
 ### Code specifics
